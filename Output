@@ -1,0 +1,18 @@
+Cars sorted by fuel usage:
+fuel usage 10.0/100 km, 23.0/230 km : 'Opel Corsa' (Car)
+fuel usage 10.0/100 km, 23.0/230 km : 'Hundai Solaris' (Car)
+fuel usage 12.0/100 km, 27.6/230 km : 'Toyota Verso' (MiniBus)
+fuel usage 15.0/100 km, 34.5/230 km : 'Mercedes-Benz Sprinter' (MiniBus)
+fuel usage 17.0/100 km, 39.1/230 km : 'Mercedes Sprinter Classic' (MiniBus)
+fuel usage 20.0/100 km, 46.0/230 km : 'Isuzu А-09206' (Bus)
+fuel usage 25.0/100 km, 57.5/230 km : 'Hyundai Bogdan A 201' (Bus)
+
+Vehicles with Red color:
+'Opel Corsa'
+'Isuzu А-09206'
+
+Vehicles with age >=10 and not moving:
+'Opel Corsa': year = 2007
+'Mercedes-Benz Sprinter': year = 1991
+
+Car park cost is 4125500.0 rubles.
