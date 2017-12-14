@@ -1,4 +1,6 @@
-package ru.levelup.tatiana_nesterova.qa.homework2;
+package ru.levelup.tatiana_nesterova.qa.homework2.entities;
+
+import ru.levelup.tatiana_nesterova.qa.homework2.entities.interfaces.FuelUsage;
 
 import java.util.Calendar;
 
@@ -22,32 +24,32 @@ public abstract class Vehicle implements FuelUsage {
         this.price = price;
     }
 
-    public Vehicle(String name, double price, double fuel_usage_item) {
+    public Vehicle(String name, double price, double fuelUsageItem) {
         // constructor
         this.name = name;
         this.price = price;
-        this.fuelUsageItem = fuel_usage_item;
+        this.fuelUsageItem = fuelUsageItem;
     }
 
-    public Vehicle(String name, double price, double fuel_usage_item, String color, int year, boolean is_moving) {
+    public Vehicle(String name, double price, double fuelUsageItem, String color, int year, boolean isMoving) {
         // constructor
         this.name = name;
         this.price = price;
-        this.fuelUsageItem = fuel_usage_item;
+        this.fuelUsageItem = fuelUsageItem;
         this.color = color;
         this.year = year;
-        this.isMoving = is_moving;
+        this.isMoving = isMoving;
     }
 
-    public Vehicle(String name, String color, int year, boolean is_moving, double price, double fuel_usage_item, double fuel_usage) {
+    public Vehicle(String name, String color, int year, boolean isMoving, double price, double fuelUsageItem, double fuelUsage) {
         // constructor
         this.name = name;
         this.color = color;
         this.year = year;
-        this.isMoving = is_moving;
+        this.isMoving = isMoving;
         this.price = price;
-        this.fuelUsageItem = fuel_usage_item;
-        this.fuelUsage = fuel_usage;
+        this.fuelUsageItem = fuelUsageItem;
+        this.fuelUsage = fuelUsage;
     }
 
     public String getName() {
@@ -94,11 +96,11 @@ public abstract class Vehicle implements FuelUsage {
         return fuelUsageItem;
     }
 
-    public void setFuelUsageItem(double fuel_usage_item) {
-        this.fuelUsageItem = fuel_usage_item;
+    public void setFuelUsageItem(double fuelUsageItem) {
+        this.fuelUsageItem = fuelUsageItem;
     }
 
-    public void setFuelUsage(double fuel_usage) {
+    public void setFuelUsage(double fuelUsage) {
         this.fuelUsage = fuelUsage;
     }
 
@@ -121,7 +123,7 @@ public abstract class Vehicle implements FuelUsage {
         return  (this.color == colorString.trim());
     }
 
-    public boolean equalsByAgeIsMoving(Object obj) {
+    public boolean equalsByAgeIsMoving(/*Object*/Vehicle obj) {
         if (!(obj instanceof Vehicle))
             return false;
         Vehicle ref = (Vehicle)obj;

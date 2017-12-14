@@ -1,5 +1,7 @@
 package ru.levelup.tatiana_nesterova.qa.homework2;
 
+import ru.levelup.tatiana_nesterova.qa.homework2.entities.*;
+
 public class VehicleParkApplication {
     public static void main(String[] args) {
 
@@ -12,7 +14,7 @@ public class VehicleParkApplication {
         Vehicle vehiclePark[] = {
                 new Car("WL0HSJS00343", "Opel Corsa", 200000, 10, "red", 2007, false),
                 new Car("WLHDWHUI092", "Hundai Solaris", 225000, 10, "green", 2009, false),
-                new Bus ("BSDJSK322343", "Hyundai Bogdan A 201", 2190000, 25, 24),
+                new Bus("BSDJSK322343", "Hyundai Bogdan A 201", 2190000, 25, 24),
                 new Bus ("WFSGF4322343", "Isuzu А-09206", 1910500, 20, 22, "red", 1997, true),
                 new MiniBus("BSDJSK322343", "Toyota Verso", 450000, 12, 8),
                 new MiniBus("QFDS94395454", "Mercedes-Benz Sprinter", 90000, 15, "white", 1991, false),

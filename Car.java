@@ -1,4 +1,4 @@
-package ru.levelup.tatiana_nesterova.qa.homework2;
+package ru.levelup.tatiana_nesterova.qa.homework2.entities;
 
 public class Car extends Vehicle {
     private String vin;
@@ -8,12 +8,12 @@ public class Car extends Vehicle {
         this.vin = vin;
     }
 
-    public Car(String vin, String name, double price, double fuel_usage) {
-        super(name, price, fuel_usage);
+    public Car(String vin, String name, double price, double fuelUsage) {
+        super(name, price, fuelUsage);
         this.vin = vin;
     }
-    public Car(String vin, String name, double price, double fuel_usage, String color, int year, boolean is_moving) {
-        super(name, price, fuel_usage, color, year, is_moving);
+    public Car(String vin, String name, double price, double fuelUsage, String color, int year, boolean isMoving) {
+        super(name, price, fuelUsage, color, year, isMoving);
         this.vin = vin;
     }
 

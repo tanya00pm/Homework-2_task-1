@@ -1,4 +1,6 @@
-package ru.levelup.tatiana_nesterova.qa.homework2;
+package ru.levelup.tatiana_nesterova.qa.homework2.entities;
+
+import ru.levelup.tatiana_nesterova.qa.homework2.entities.Vehicle;
 
 import java.util.Arrays;
 import java.util.Comparator;

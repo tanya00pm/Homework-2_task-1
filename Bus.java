@@ -1,6 +1,6 @@
-package ru.levelup.tatiana_nesterova.qa.homework2;
+package ru.levelup.tatiana_nesterova.qa.homework2.entities;
 
-public class Bus extends Vehicle{
+public class Bus extends Vehicle {
     private String vin;
     private int seatsNumber;
 
@@ -9,21 +9,21 @@ public class Bus extends Vehicle{
         this.vin = vin;
     }
 
-    public Bus(String vin, String name, double price, double fuel_usage_item, int seats_number) {
-        super(name, price, fuel_usage_item);
+    public Bus(String vin, String name, double price, double fuelUsageItem, int seatsNumber) {
+        super(name, price, fuelUsageItem);
         this.vin = vin;
-        this.seatsNumber = seats_number;
+        this.seatsNumber = seatsNumber;
     }
 
-    public Bus(String vin, String name, double price, double fuel_usage_item, String color, int year, boolean is_moving) {
-        super(name, price, fuel_usage_item, color, year, is_moving);
+    public Bus(String vin, String name, double price, double fuelUsageItem, String color, int year, boolean isMoving) {
+        super(name, price, fuelUsageItem, color, year, isMoving);
         this.vin = vin;
     }
 
-    public Bus(String vin, String name, double price, double fuel_usage_item, int seats_number, String color, int year, boolean is_moving) {
-        super(name, price, fuel_usage_item, color, year, is_moving);
+    public Bus(String vin, String name, double price, double fuelUsageItem, int seatsNumber, String color, int year, boolean isMoving) {
+        super(name, price, fuelUsageItem, color, year, isMoving);
         this.vin = vin;
-        this.seatsNumber = seats_number;
+        this.seatsNumber = seatsNumber;
     }
 
     public String getVin() {
@@ -38,7 +38,7 @@ public class Bus extends Vehicle{
         return seatsNumber;
     }
 
-    public void setSeatsNumber(int seats_number) {
-        this.seatsNumber = seats_number;
+    public void setSeatsNumber(int seatsNumber) {
+        this.seatsNumber = seatsNumber;
     }
 }

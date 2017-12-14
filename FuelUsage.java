@@ -1,4 +1,4 @@
-package ru.levelup.tatiana_nesterova.qa.homework2;
+package ru.levelup.tatiana_nesterova.qa.homework2.entities.interfaces;
 
 public interface FuelUsage {
     double getFuelUsage();
